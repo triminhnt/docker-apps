@@ -1,0 +1,24 @@
+# Extensions 
+Docker v1.23.1
+
+nginx 
+
+# Create img-html image
+% docker build . -t img-html:v1
+
+# Show images
+% docker images 
+
+# Create Container
+% docker run -d -p 80:80 --name cons-html img-html:v1
+
+http://localhost
+http://localhost/home/home.html
+
+# Login Server
+# free 
+# df - h
+
+
+
+
